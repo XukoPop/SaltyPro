@@ -2,22 +2,19 @@ import React, { useEffect } from 'react';
 
 function Home() {
   useEffect(() => {
-    // Create background particles
     const createParticles = () => {
       const container = document.querySelector('.particle-container');
       if (!container) return;
       
-      // Clear existing particles
       container.innerHTML = '';
       
-      // Create new particles
       for (let i = 0; i < 20; i++) {
         const particle = document.createElement('div');
         particle.className = 'particle';
         particle.style.left = `${Math.random() * 100}%`;
         particle.style.top = `${Math.random() * 100}%`;
         
-        // Add animation
+
         particle.style.animation = `pulse ${3 + Math.random() * 3}s infinite alternate`;
         
         container.appendChild(particle);
@@ -34,14 +31,14 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white relative overflow-hidden">
-      {/* Background gradient effect */}
+
       <div className="absolute inset-0 bg-gradient-animated opacity-20 z-0"></div>
       
-      {/* Animated dots/particles background */}
+
       <div className="absolute inset-0 z-0 particle-container"></div>
       
       <div className="container mx-auto px-4 py-12 relative z-10">
-        {/* Main hero section with title and CTA */}
+
         <div className="fade-in bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-xl p-8 mb-12 border border-gray-700">
           <h1 className="text-5xl font-bold text-blue-400 mb-4 brand-font">
             SaltyPro
@@ -52,7 +49,7 @@ function Home() {
           
           <div className="flex flex-wrap gap-4">
             <a 
-              href="https://chrome.google.com/webstore/detail/saltypro/eocgcmccjmhiheehmpkgohneocaongn" 
+              href="https://chromewebstore.google.com/detail/saltypro/eocgcmccjmhiheelnmpkgohneocaongn" 
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 inline-flex items-center shadow-lg hover:shadow-blue-500/30 btn"
@@ -77,7 +74,7 @@ function Home() {
           </div>
         </div>
 
-        {/* About SaltyPro section moved to the top */}
+
         <div className="fade-in bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-xl p-8 mb-12 border border-gray-700">
           <h2 className="text-3xl font-bold text-blue-400 mb-4">About SaltyPro</h2>
           <div className="text-gray-300">
@@ -105,12 +102,12 @@ function Home() {
           </div>
         </div>
         
-        {/* Extension preview section with improved image handling */}
+
         <div className="fade-in bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-xl p-8 mb-12 border border-gray-700">
           <h2 className="text-3xl font-bold text-blue-400 mb-6">Extension Preview</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Left side with image 1 */}
+
             <div className="flex flex-col">
               <div className="bg-gray-700 p-2 rounded-lg shadow-md overflow-hidden h-72 relative">
                 <div className="absolute inset-0 overflow-auto hide-scrollbar">
@@ -124,7 +121,7 @@ function Home() {
               <p className="text-center text-gray-400 mt-3 text-sm">Main interface showing betting controls</p>
             </div>
             
-            {/* Right side with image 2 */}
+
             <div className="flex flex-col">
               <div className="bg-gray-700 p-2 rounded-lg shadow-md overflow-hidden h-72 relative">
                 <div className="absolute inset-0 overflow-auto hide-scrollbar">
@@ -139,7 +136,7 @@ function Home() {
             </div>
           </div>
           
-          {/* Features list with animations */}
+
           <div className="mt-12">
             <h3 className="text-2xl font-semibold text-blue-300 mb-6">What you get:</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -178,7 +175,7 @@ function Home() {
           </div>
         </div>
         
-        {/* Testimonials section */}
+
         <div className="fade-in bg-gray-800/90 backdrop-blur-sm rounded-lg shadow-xl p-8 border border-gray-700 mb-12">
           <h2 className="text-3xl font-bold text-blue-400 mb-6">What Users Say</h2>
           
