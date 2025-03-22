@@ -89,7 +89,7 @@ function Home() {
               SaltyBet Betting Made Better
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              SaltyPro is an enhanced version of the original SaltyBet Chrome extension, redesigned in 2025
+              SaltyPro is an enhanced version of the original Saltyboy Chrome extension, redesigned in 2025
             </p>
           </div>
           
