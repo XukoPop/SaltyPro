@@ -89,11 +89,7 @@ function Home() {
               SaltyBet Betting Made Better
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-<<<<<<< HEAD
               SaltyPro is an enhanced version of the original SaltyBoy Chrome extension, redesigned in 2025
-=======
-              SaltyPro is an enhanced version of the original Saltyboy Chrome extension, redesigned in 2025
->>>>>>> e6592183fc25509f96badc9604ed5710d39d8c05
             </p>
           </div>
           
@@ -275,11 +271,7 @@ function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-<<<<<<< HEAD
                 Read SaltyPro Guide
-=======
-                Read SaltyBet Guide
->>>>>>> e6592183fc25509f96badc9604ed5710d39d8c05
               </Link>
             </div>
           </div>
