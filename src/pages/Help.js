@@ -87,7 +87,7 @@ function Help() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-red-500" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
                   </svg>
-                  SaltyBet Match Stats Button
+                  SaltyPro Match Stats Button
                 </h3>
                 <p className="text-gray-300 mb-3">
                   Click the "Match Stats" button to see detailed information about the current SaltyBet match, including:
@@ -100,7 +100,7 @@ function Help() {
                 </ul>
                 <div className="bg-gray-700/40 p-4 rounded-lg mt-3 border border-red-900/20">
                   <p className="text-gray-300 text-sm">
-                    <span className="text-red-400 font-semibold">SaltyBet Pro Tip:</span> The Match Stats overlay shows previous matches between fighters, which can be a strong indicator of potential outcomes on SaltyBet. Use this to see if a fighter has a history of dominating their current opponent.
+                    <span className="text-red-400 font-semibold">SaltyPro Pro Tip:</span> The Match Stats overlay shows previous matches between fighters, which can be a strong indicator of potential outcomes on SaltyBet. Use this to see if a fighter has a history of dominating their current opponent.
                   </p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ function Help() {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-red-500" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
                   </svg>
-                  SaltyBet Betting Settings
+                  SaltyPro Betting Settings
                 </h3>
                 <div className="overflow-x-auto">
                   <table className="min-w-full bg-gray-700/40 text-gray-300 rounded-lg overflow-hidden shadow-lg border border-red-900/20 settings-table">
@@ -166,7 +166,7 @@ function Help() {
                 </div>
                 <div className="bg-gray-700/40 p-4 rounded-lg mt-4 border border-red-900/20">
                   <p className="text-gray-300 text-sm">
-                    <span className="text-red-400 font-semibold">SaltyBet Strategy Tip:</span> For beginners, using "All In Until" with a value of 5,000-10,000 with the ELO betting mode is a good way to grow your SaltyBet bankroll quickly. Once you've reached that amount, switch to percentage-based betting to reduce risk.
+                    <span className="text-red-400 font-semibold">SaltyPro Strategy Tip:</span> For beginners, using "All In Until" with a value of 5,000-10,000 with the ELO betting mode is a good way to grow your SaltyBet bankroll quickly. Once you've reached that amount, switch to percentage-based betting to reduce risk.
                   </p>
                 </div>
               </div>
@@ -188,7 +188,7 @@ function Help() {
                 <div className="bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20 hover:bg-gray-700/60 transition-all duration-300">
                   <h3 className="text-xl font-semibold text-red-400 mb-2 flex items-center">
                     <span className="bg-red-500/20 text-red-500 p-1 rounded-md mr-2 w-6 h-6 flex items-center justify-center text-sm">1</span>
-                    Naive SaltyBet Strategy
+                    Naive SaltyPro Strategy
                   </h3>
                   <p className="text-gray-300 mb-3 pl-9">
                     Simple but effective strategy based primarily on win rates from past SaltyBet matches.
@@ -214,7 +214,7 @@ function Help() {
                 <div className="bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20 hover:bg-gray-700/60 transition-all duration-300">
                   <h3 className="text-xl font-semibold text-red-400 mb-2 flex items-center">
                     <span className="bg-red-500/20 text-red-500 p-1 rounded-md mr-2 w-6 h-6 flex items-center justify-center text-sm">2</span>
-                    SaltyBet ELO Strategy
+                    SaltyPro ELO Strategy
                   </h3>
                   <p className="text-gray-300 mb-3 pl-9">
                     Uses the ELO rating system (similar to chess) to determine SaltyBet bet confidence.
@@ -240,7 +240,7 @@ function Help() {
                 <div className="bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20 hover:bg-gray-700/60 transition-all duration-300">
                   <h3 className="text-xl font-semibold text-red-400 mb-2 flex items-center">
                     <span className="bg-red-500/20 text-red-500 p-1 rounded-md mr-2 w-6 h-6 flex items-center justify-center text-sm">3</span>
-                    SaltyBet ELO Tier Strategy
+                    SaltyPro ELO Tier Strategy
                   </h3>
                   <p className="text-gray-300 mb-3 pl-9">
                     Similar to ELO but resets when SaltyBet fighters change tiers.
@@ -266,7 +266,7 @@ function Help() {
                 <div className="bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20 hover:bg-gray-700/60 transition-all duration-300">
                   <h3 className="text-xl font-semibold text-red-400 mb-2 flex items-center">
                     <span className="bg-red-500/20 text-red-500 p-1 rounded-md mr-2 w-6 h-6 flex items-center justify-center text-sm">4</span>
-                    SaltyBet Passive Strategy
+                    SaltyPro Passive Strategy
                   </h3>
                   <p className="text-gray-300 mb-3 pl-9">
                     Low-risk strategy that places small bets based on SaltyBet crowd behavior.
@@ -289,7 +289,7 @@ function Help() {
                 <div className="bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20 hover:bg-gray-700/60 transition-all duration-300">
                   <h3 className="text-xl font-semibold text-red-400 mb-2 flex items-center">
                     <span className="bg-red-500/20 text-red-500 p-1 rounded-md mr-2 w-6 h-6 flex items-center justify-center text-sm">5</span>
-                    SaltyBet RNG Strategy
+                    SaltyPro RNG Strategy
                   </h3>
                   <p className="text-gray-300 mb-3 pl-9">
                     Random number generator strategy for pure chance betting on SaltyBet.
@@ -356,7 +356,7 @@ function Help() {
                 <div className="faq-item bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20">
                   <h3 className="text-xl font-semibold text-red-400 mb-3 flex items-start">
                     <span className="text-red-500 mr-2">Q:</span>
-                    What is 'Upset Mode' for SaltyBet?
+                    What is 'Upset Mode' for SaltyPro?
                   </h3>
                   <p className="text-gray-300 pl-6">
                     <span className="text-red-500 font-semibold mr-2">A:</span>
@@ -378,7 +378,7 @@ function Help() {
                 <div className="faq-item bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20">
                   <h3 className="text-xl font-semibold text-red-400 mb-3 flex items-start">
                     <span className="text-red-500 mr-2">Q:</span>
-                    How accurate are the SaltyBet predictions?
+                    How accurate are the SaltyPro predictions?
                   </h3>
                   <p className="text-gray-300 pl-6">
                     <span className="text-red-500 font-semibold mr-2">A:</span>
@@ -389,29 +389,29 @@ function Help() {
                 <div className="faq-item bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20">
                   <h3 className="text-xl font-semibold text-red-400 mb-3 flex items-start">
                     <span className="text-red-500 mr-2">Q:</span>
-                    Why is the extension betting small amounts when my SaltyBet balance is high?
+                    Why is the extension betting small amounts when my SaltyPro balance is high?
                   </h3>
                   <p className="text-gray-300 pl-6">
                   <span className="text-red-500 font-semibold mr-2">A:</span>
-                    This is likely due to your Max Bet settings for SaltyBet. Check your Max Bet Percentage and Max Bet Amount settings - if either is too low, it will limit your bet size. For example, if Max Bet Percentage is set to 5%, on a $10,000 SaltyBet balance, you'll only bet up to $500 even on high confidence matches. Adjust these settings higher or set them to 0 to disable the limit.
+                    This is likely due to your Max Bet settings for SaltyPro. Check your Max Bet Percentage and Max Bet Amount settings - if either is too low, it will limit your bet size. For example, if Max Bet Percentage is set to 5%, on a $10,000 SaltyBet balance, you'll only bet up to $500 even on high confidence matches. Adjust these settings higher or set them to 0 to disable the limit.
                   </p>
                 </div>
                 
                 <div className="faq-item bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20">
                   <h3 className="text-xl font-semibold text-red-400 mb-3 flex items-start">
                     <span className="text-red-500 mr-2">Q:</span>
-                    What does the SaltyBet Match Stats button do?
+                    What does the SaltyPro Match Stats button do?
                   </h3>
                   <p className="text-gray-300 pl-6">
                     <span className="text-red-500 font-semibold mr-2">A:</span>
-                    The Match Stats button displays a detailed overlay with information about the current SaltyBet match, including fighter win rates, ELO ratings, head-to-head history, and other statistics. This information can help you understand why the extension is recommending a particular bet and provide insight into fighter performance. The overlay automatically disappears after 15 seconds or can be closed manually.
+                    The Match Stats button displays a detailed overlay with information about the current SaltyPro match, including fighter win rates, ELO ratings, head-to-head history, and other statistics. This information can help you understand why the extension is recommending a particular bet and provide insight into fighter performance. The overlay automatically disappears after 15 seconds or can be closed manually.
                   </p>
                 </div>
                 
                 <div className="faq-item bg-gray-700/40 p-6 rounded-lg shadow-md border border-red-900/20">
                   <h3 className="text-xl font-semibold text-red-400 mb-3 flex items-start">
                     <span className="text-red-500 mr-2">Q:</span>
-                    Is there a way to customize which SaltyBet tiers I bet on?
+                    Is there a way to customize which SaltyPro tiers I bet on?
                   </h3>
                   <p className="text-gray-300 pl-6">
                     <span className="text-red-500 font-semibold mr-2">A:</span>
@@ -432,16 +432,16 @@ function Help() {
               </div>
               
               <div className="bg-red-900/20 p-6 rounded-lg mt-8 border border-red-900/30">
-                <h3 className="text-xl font-semibold text-red-400 mb-3">Need More Help with SaltyBet?</h3>
+                <h3 className="text-xl font-semibold text-red-400 mb-3">Need More Help with SaltyPro?</h3>
                 <p className="text-gray-300 mb-4">
                   If you're experiencing an issue not covered in the FAQ or have suggestions for improving SaltyPro for SaltyBet, you can:
                 </p>
                 <ul className="list-disc list-inside text-gray-300 space-y-2 ml-2">
                   <li>
-                    <span className="font-medium text-red-300">Report SaltyBet bugs or issues</span> through our support page at <a href="https://BukiDev.xyz" className="text-red-400 hover:underline">BukiDev.xyz</a>
+                    <span className="font-medium text-red-300">Report SaltyPro bugs or issues</span> through our support page at <a href="https://BukiDev.xyz" className="text-red-400 hover:underline">BukiDev.xyz</a>
                   </li>
                   <li>
-                    <span className="font-medium text-red-300">Join our SaltyBet community</span> to discuss strategies and share tips with other SaltyPro users
+                    <span className="font-medium text-red-300">Join our SaltyPro community</span> to discuss strategies and share tips with other SaltyPro users
                   </li>
                   <li>
                     <span className="font-medium text-red-300">Check for updates</span> regularly to ensure you have the latest version with all bug fixes and improvements for SaltyBet
@@ -462,10 +462,10 @@ function Help() {
             <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600">About SaltyPro for SaltyBet</h2>
           </div>
           <p className="text-gray-300 mb-4">
-            SaltyPro is a remake built upon the original "SaltyBet" Google Chrome extension. Full credit goes to the original author for the foundation of this tool.
+            SaltyPro is a remake built upon the original "SaltyBoy" Google Chrome extension. Full credit goes to the original author for the foundation of this tool.
           </p>
           <p className="text-gray-300">
-            This improved 2025 version by BukiDev includes better refresh mechanisms, redesigned user interface, comprehensive SaltyBet documentation, help button, and improved code structure while respecting the original concept.
+            This improved 2025 version by BukiDev includes better refresh mechanisms, redesigned user interface, comprehensive SaltyPro documentation, help button, and improved code structure while respecting the original concept.
           </p>
         </div>
       </div>

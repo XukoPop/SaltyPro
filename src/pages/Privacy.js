@@ -41,7 +41,7 @@ function Privacy() {
             </span>
           </h1>
           <p className="text-gray-300 max-w-2xl mx-auto">
-            Your privacy matters to us. Learn about our SaltyBet data policy.
+            Your privacy matters to us. Learn about our SaltyPro data policy.
           </p>
         </div>
         

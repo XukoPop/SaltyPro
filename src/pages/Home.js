@@ -89,7 +89,7 @@ function Home() {
               SaltyBet Betting Made Better
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              SaltyPro is an enhanced version of the original SaltyBet Chrome extension, redesigned in 2025
+              SaltyPro is an enhanced version of the original SaltyBoy Chrome extension, redesigned in 2025
             </p>
           </div>
           
@@ -159,7 +159,7 @@ function Home() {
         {/* Extension Preview Section */}
         <div className="fade-in mb-16 bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-red-900/20">
           <h2 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600 mb-10">
-            SaltyBet Extension Preview
+           SaltyPro Extension Preview
           </h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -173,7 +173,7 @@ function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-3 text-sm">Main SaltyBet interface with betting controls</p>
+              <p className="text-center text-gray-400 mt-3 text-sm">Main SaltyPro interface with betting controls</p>
             </div>
             
             <div className="flex flex-col">
@@ -186,7 +186,7 @@ function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-3 text-sm">Detailed SaltyBet match statistics overlay</p>
+              <p className="text-center text-gray-400 mt-3 text-sm">Detailed SaltyPro match statistics overlay</p>
             </div>
             
             <div className="flex flex-col">
@@ -199,14 +199,14 @@ function Home() {
                   />
                 </div>
               </div>
-              <p className="text-center text-gray-400 mt-3 text-sm">SaltyBet winnings history tracking your profits</p>
+              <p className="text-center text-gray-400 mt-3 text-sm">SaltyPro winnings history tracking your profits</p>
             </div>
           </div>
           
         {/* Testimonials Section */}
         <div className="fade-in mb-16">
           <h2 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-600 mb-10">
-            What SaltyBet Players Say
+            What SaltyPro Players Say
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 stagger-fade-in">
@@ -271,7 +271,7 @@ function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                Read SaltyBet Guide
+                Read SaltyPro Guide
               </Link>
             </div>
           </div>
