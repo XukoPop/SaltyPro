@@ -55,6 +55,6 @@ To contribute:
 ## Credits
 
 Created by [FranciscoAT](https://github.com/FranciscoAT/saltyboy)
-Updated by [Andrew](https://xuko.xyz)
+Updated by [BukiDev](https://BukiDev.xyz)
 
 Based on open-source historical match data from the SaltyBet community.
